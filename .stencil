@@ -1,0 +1,11 @@
+{
+  "normalStoreUrl": "https://birdandbeanshop.mybigcommerce.com",
+  "accessToken": "ebxs7lx39wxb7o3qedpdwvzh7mwkc0g",
+  "port": 3000,
+  "customLayouts": {
+    "brand": {},
+    "category": {},
+    "page": {},
+    "product": {}
+  }
+}
