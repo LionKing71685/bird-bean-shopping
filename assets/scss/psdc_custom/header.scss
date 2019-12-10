@@ -15,6 +15,11 @@
   z-index: 99;
 }
 
+.header-topbar {
+  width: 100%;
+  background: #37475D;
+}
+
 .header-inner{
   @include display-flex(flex);
   @include align-item(center);

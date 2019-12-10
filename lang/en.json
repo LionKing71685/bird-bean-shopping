@@ -3,6 +3,7 @@
         "welcome_back": "Welcome back, {name}"
     },
     "footer": {
+        "hours": "Our Shop Hours",
         "brands": "Popular Brands",
         "navigate": "Quick Links",
         "info": "Info",
@@ -901,7 +902,7 @@
         "similar_by_views": "Customers Also Viewed",
         "featured": "Featured Products",
         "file_option_set": "Currently: <a href=\"{url}\" target=\"_blank\">{name}</a>",
-        "new": "New Products",
+        "new": "Shop Our Best Sellers",
         "warranty": "Warranty Information",
         "other-details": "Other Details",
         "reviews": {
@@ -1008,7 +1009,7 @@
         "subscribe": "Sign Up for our Newsletter",
         "newsletter_error": "Please enter correct email",
         "subscribe_intro": " ",
-        "subscribe_submit": "submit",
+        "subscribe_submit": "SIGN UP",
         "email_placeholder": "Join our Newsletter...",
         "subscribed_heading": "Thanks for Subscribing!",
         "subscribed_heading_error": "Oops...",

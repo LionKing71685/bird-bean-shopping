@@ -37,6 +37,161 @@ p, button, a {
     }
   }
 }
+.section-bottom {
+  a {
+    display: flex;
+    .btn-view-our-shop {
+      border: 2px solid #37475D;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0.5rem 1rem;
+      span {
+        color: #37475D;
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+.mailing-wrap {
+  background: url('https://cdn11.bigcommerce.com/s-s2bg0pfa8m/product_images/uploaded_images/back.png?t=1575307371&_ga=2.115948358.1331562452.1575304711-1828824722.1575304711');
+  background-size: cover;
+  padding: 50px 20px;
+  h1, h4 {
+    color: white;
+    text-align: center;
+  }
+  h1 {
+    @media only screen and (max-width: 1023px) {
+      width: 100%;
+    }
+  }
+  .content-info-newsletter{
+    .content-info-newsletter-inn{
+      width: 84%;
+      margin: 0 auto;
+      @media only screen and (max-width: 1279px) {
+        width: 95%;
+      }
+      @media only screen and (max-width: 1023px) {
+        width: 100%;
+      }
+    }
+    .form-prefixPostfix{
+      .form-input{
+        border-width: 2px;
+        font-family: 'Quicksand';
+        border-right: 0px;
+        box-shadow: none;
+        @media only screen and (max-width: 479px) {
+          border-right: $theme-border-color;
+          border-width: 2px;
+          margin-bottom: 10px;
+        }
+      }
+      .button{
+        margin: 0px;
+        line-height: 18px;
+        padding: 14px 38px;
+        font-size: 16px;
+        font-family: 'Quicksand';
+        font-weight: 500;
+        width: auto;
+        @media only screen and (max-width: 767px) {
+          padding: 12px 15px;
+          line-height: 18px;
+        }
+      }
+    }
+    .form, .form-field{
+      margin: 0px;
+    }
+    .form-field--error{
+      .form-field--success{
+        .form-input{
+          border-color: stencilColor('color-success');
+        }
+      }
+    }
+    .form-prefixPostfix{
+      &.wrap{
+        @media only screen and (max-width: 1279px) {
+          @include flex-wrap(nowrap);
+        }
+        @media only screen and (max-width: 479px) {
+          @include flex-direction(column);
+        }
+      }
+    }
+  }
+}
+.follow-us-wrap {
+  text-align: center;
+  margin-top: 60px;
+  padding: 0px 8rem;
+  h5 {
+    text-transform: lowercase;
+  }
+  .eapps-instagram-feed :nth-child(3) {
+    // display: none;
+  }
+}
+.come-find-us {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  padding: 0 4rem;
+  .bg-come-find-us {
+    width: 50%;
+    height: 617px;
+    background: url(https://cdn11.bigcommerce.com/s-s2bg0pfa8m/product_images/uploaded_images/bird-and-bean-shop-gps-603x603.jpg?t=1572287623&_ga=2.19140728.19135187.1575330967-1936487655.1575330967) no-repeat center center;
+    background-size: cover;
+    @media only screen and (max-width: 1023px) {
+      display: none;
+    }
+  }
+  .come-find-us-content {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background: #E2875C;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    .contact-info-wrap {
+      margin: 0 auto;
+      .come-find-us-bottom-line {
+        width: 8vw;
+        height: 2px;
+        background: white;
+        margin: 0 auto 23px;
+      }
+      h2, h5, h6 {
+        color: white;
+      }
+      .contact-info {
+        line-height: 50px;
+        margin-bottom: 37px;
+      }
+      .btn-view-retail-locations {
+        // width: 22vw;
+        border: 4px solid white;
+        margin: 0 auto;
+        padding: 0 2rem;
+        h5 {
+          line-height: 52px;
+          margin-bottom: 0;
+        }
+        @media only screen and (max-width: 1023px) {
+          padding: 0 0.5rem;
+        }
+      }
+    }
+    @media only screen and (max-width: 1023px) {
+      width: 100%;
+    }
+  }
+}
 .page-heading{
   margin-bottom: 30px;
   font-weight: 500;
@@ -176,6 +331,7 @@ p, button, a {
 
 // product section style Start
 .product-section{
+  padding: 0 2rem;
   &.m-b-40{
     @media only screen and (max-width: 1023px) {
       margin-bottom: 17px;
